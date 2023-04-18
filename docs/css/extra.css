@@ -4,4 +4,5 @@
 
 .injected {
     display: none !important;
+    visibility: hidden;
 }
