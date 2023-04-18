@@ -8,5 +8,5 @@ extra_css:
   - css/extra.css
 extra_javascript:
   - js/test.js
-
+  - https://code.jquery.com/jquery-3.6.0.min.js
 
