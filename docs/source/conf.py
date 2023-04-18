@@ -38,3 +38,7 @@ html_context = {
 }
 
 html_style = 'css/remove.css'
+html_show_sourcelink = False
+html_theme_options = {
+    'display_version': False,
+}
