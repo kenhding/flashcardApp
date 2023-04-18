@@ -29,28 +29,28 @@ theme:
         name: Switch to dark theme
   features:
     - toc.integrate
-plugins:
-  - search
-  - mkdocstrings:
-      custom_templates: docs/templates
-      handlers:
-        python:
-          import:
-          - https://docs.python.org/3/objects.inv
-          - https://numpy.org/doc/stable/objects.inv
-          options:
-            docstring_style: numpy
-            docstring_section_style: list
-            line_length: 92
-            show_root_heading: true
-markdown_extensions:
-  - admonition
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.details
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
+# plugins:
+#   - search
+#   - mkdocstrings:
+#       custom_templates: docs/templates
+#       handlers:
+#         python:
+#           import:
+#           - https://docs.python.org/3/objects.inv
+#           - https://numpy.org/doc/stable/objects.inv
+#           options:
+#             docstring_style: numpy
+#             docstring_section_style: list
+#             line_length: 92
+#             show_root_heading: true
+# markdown_extensions:
+#   - admonition
+#   - pymdownx.arithmatex:
+#       generic: true
+#   - pymdownx.details
+#   - pymdownx.highlight:
+#       anchor_linenums: true
+#   - pymdownx.inlinehilite
+#   - pymdownx.snippets
+#   - pymdownx.superfences
             
