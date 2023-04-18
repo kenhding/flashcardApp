@@ -6,29 +6,29 @@ extra_css:
   - css/extra.css
   - css/mkdocstrings.css
 
-theme:
-  name: material
-  palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Use system theme
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to light theme
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to dark theme
-  features:
-    - toc.integrate
+# theme:
+#   name: material
+#   palette:
+#     - media: "(prefers-color-scheme)"
+#       toggle:
+#         icon: material/brightness-auto
+#         name: Use system theme
+#     - media: "(prefers-color-scheme: light)"
+#       scheme: default
+#       primary: indigo
+#       accent: indigo
+#       toggle:
+#         icon: material/brightness-7
+#         name: Switch to light theme
+#     - media: "(prefers-color-scheme: dark)"
+#       scheme: slate
+#       primary: indigo
+#       accent: indigo
+#       toggle:
+#         icon: material/brightness-4
+#         name: Switch to dark theme
+#   features:
+#     - toc.integrate
 # plugins:
 #   - search
 #   - mkdocstrings:
