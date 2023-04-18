@@ -37,4 +37,4 @@ html_context = {
 "commit": False,
 }
 
-
+html_style = 'css/remove.css'
