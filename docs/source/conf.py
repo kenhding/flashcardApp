@@ -19,14 +19,13 @@ extensions = []
 templates_path = ['_templates']
 exclude_patterns = []
 
-html_show_sourcelink = False
+
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
-
 html_context = {
 "display_github": False, # Add 'Edit on Github' link instead of 'View page source'
 "last_updated": True,
