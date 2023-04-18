@@ -1,11 +1,23 @@
-site_name: My Docs
-theme:
-  name: material
-
-extra_css:
-  - css/extra.css
-  - css/mkdocstrings.css
-
+site_name: SleepECG
+site_url: https://sleepecg.readthedocs.io/
+repo_name: cbrnr/sleepecg
+repo_url: https://github.com/cbrnr/sleepecg
+copyright: © SleepECG Developers
+nav:
+  - Home: index.md
+  - Datasets: datasets.md
+  - Heartbeat detection: heartbeat_detection.md
+  - Feature extraction: feature_extraction.md
+  - Classification: classification.md
+  - Plotting: plot.md
+  - Configuration: configuration.md
+  - API:
+    - Datasets: api/datasets.md
+    - Heartbeat detection: api/heartbeat_detection.md
+    - Feature extraction: api/feature_extraction.md
+    - Classification: api/classification.md
+    - Plotting: api/plot.md
+    - Configuration: api/configuration.md
 theme:
   name: material
   palette:
@@ -43,6 +55,9 @@ plugins:
             docstring_section_style: list
             line_length: 92
             show_root_heading: true
+extra_css:
+  - css/extra.css
+  - css/mkdocstrings.css
 markdown_extensions:
   - admonition
   - pymdownx.arithmatex:
@@ -53,4 +68,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-            
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
