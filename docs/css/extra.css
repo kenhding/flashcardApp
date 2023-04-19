@@ -1,12 +1,14 @@
 .md-grid {
     max-width: 1440px;
 }
-/* 
+
 .injected {
     display: none !important;
     visibility: hidden;
-} */
-
+}
+.md-footer a[href^="https://github.com/"] {
+    display: none !important;
+}
 .rst-other-versions > dl:nth-child(3) {
     display: none;
  }
