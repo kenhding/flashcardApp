@@ -1,5 +1,6 @@
 site_name: Flashcard documentation
-
+site_description: required. Used as feed mandatory channel description.
+site_url: https://google.com
 theme:
   name: material
   language: en
@@ -35,12 +36,9 @@ plugins:
       lang: en
   - blog:
   - rss:
-      match_path: blog/posts/.* 
+      match_path: "/blog/posts/*"
       date_from_meta:
         as_creation: date
-      categories:
-        - categories
-        - tags
 extra:
   analytics:
     provider: google
@@ -86,4 +84,5 @@ nav:
     - blog/index.md
     - Hello:
       - blog/posts/hello_world.md
-      - blog/posts/second.md
+      - blog/posts/hello1.md
+      - blog/posts/hello_world copy.md

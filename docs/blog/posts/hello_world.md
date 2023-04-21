@@ -5,13 +5,10 @@ categories:
   - World
 authors:
   - squidfunk
-tags:
-  - Foo
-  - Bar
 readtime: 15
 ---
 
-# Hello!
+# 2!
 ...
 # Hello world!
 
