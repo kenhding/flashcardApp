@@ -1,14 +1,87 @@
 site_name: Flashcard documentation
 site_description: required. Used as feed mandatory channel description.
-site_url: http://google.com
+site_url: http://127.0.0.1:8000/
 theme:
-    name: material
+  name: material
+  language: en
+  
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    - search.highlight
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: light green
+      accent: deep orange
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: light green
+      accent: deep orange
 plugins:
-  - blog
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags 
+  - search:
+      lang: en
+  - blogging:
+        dirs: # The directories to be included
+          - blog/posts
+  - glightbox
+
+extra:
+  analytics:
+    provider: google
+    property: G-XXE1ZSLG0J
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    cookies:
+      analytics: flashApp
+    
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - https://code.jquery.com/jquery-3.6.0.min.js
+
+copyright: >
+  Copyright &copy; 2016 - 2023 Martin Donath –
+  <a href="#__consent">Change cookie settings</a>
+
+markdown_extensions:
+  - attr_list
+
+nav:
+  - Manual:
+    - index.md
+  - Blog:
+    - blog/index.md
+    - blog/posts/hello_world.md
