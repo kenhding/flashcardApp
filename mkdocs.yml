@@ -80,9 +80,10 @@ copyright: >
 
 
 nav:
+  - Intro:
+    - index.md
   - Blog:
     - blog/index.md
-    - blog/second.md
-    - hello:
+    - Hello:
       - blog/posts/hello_world.md
       - blog/posts/second.md
