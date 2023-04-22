@@ -2,7 +2,6 @@
 # Review flashcards
 
 
-
 <div style="display: flex; align-items: center;" markdown>
 ![reviewButton]{ width="150", align=left}
 The review function is designed to perform the cards that previous has been reviewed from flash panel. 
@@ -23,16 +22,12 @@ The second statistics provides an overview of a preplanned reviewing schdule in 
 </div>
 
 
-
-
 ## Supplementary information
 
 * `Review planner` - Current version does not allow user to modify the planner. It may come with next verisons.
 * `Personalized forgetting curve` - The future version of the application may consider to use heuristic function to adapt individual peace.
 
-[reviewButton]: /assets/images/review_button.png
-[reviewBar]: /assets/images/review_bar.png
-[reviewCell]: /assets/images/review_cell.png
-[flashcardSection]: index.md#flashcards
-
-
+[reviewButton]: ./assets/images/review_button.png
+[reviewBar]: ./assets/images/review_bar.png
+[reviewCell]: ./assets/images/review_cell.png
+[flashcardSection]: ./index.md#flashcards

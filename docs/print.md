@@ -19,11 +19,6 @@ On top of the print panel, you can layout the table per each page. Please note, 
 </figure>
 
 
-[printButton]: /assets/images/print_button.png
-[printOption]: /assets/images/print_option.png
-[printedPage]: /assets/images/printed_page.png
-[flashcardSection]: index.md#flashcards
-
 
 ### Supplementary information
 
@@ -32,6 +27,10 @@ On top of the print panel, you can layout the table per each page. Please note, 
 
 
 
+[printButton]: ./assets/images/print_button.png
+[printOption]: ./assets/images/print_option.png
+[printedPage]: ./assets/images/printed_page.png
+[flashcardSection]: ./index.md#flashcards
 
 
 
