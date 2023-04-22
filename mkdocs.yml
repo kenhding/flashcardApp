@@ -3,6 +3,7 @@ site_description: required. Used as feed mandatory channel description.
 site_url: http://127.0.0.1:8000/
 theme:
   name: material
+  custom_dir: overrides
   language: en
   
   features:
