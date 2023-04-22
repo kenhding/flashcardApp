@@ -90,3 +90,5 @@ nav:
   - Blog:
     - blog/index.md
     - blog/posts/hello_world.md
+  - Privacy policy:
+    - privacy.md

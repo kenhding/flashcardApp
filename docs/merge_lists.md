@@ -4,13 +4,13 @@
 
 <div style="display: flex; align-items: center;" markdown>
 ![mergebutton]{ width="150", align=left}
-The flashcard only draw card from **one** properly arranged sheet. if you would like to draw card from multiple sheets, it is required to generate a new sheet contains all the the words. 
+Flashcard program only selects cards from <b>one</b> appropriately arranged sheet at a time. If one intends to select cards from multiple sheets, it is necessary to create a new sheet that amalgamates all the desired words.
 </div>
 
 
 ## Example: merge multiple lists for flashcards
 
-Assuming an german english learner has multiple vocabulary sheets, each of the sheet contains a piece of the vocabulary he noted. The source of the vocabulary used in the tutorial can be found via [here](https://www.frenzelschule.de/download/business-english-vocabulary-vocabulary-list-exam.xls) provided by [Private Business School Frenzel](https://www.frenzelschule.de/).
+Suppose a German-English language learner possesses multiple sheets of vocabulary, with each sheet containing a portion of the vocabulary that he/she has recorded. The source of the vocabulary utilized in the tutorial may be accessed through the following [link](https://www.frenzelschule.de/download/business-english-vocabulary-vocabulary-list-exam.xls), which has been provided by the [Private Business School Frenzel](https://www.frenzelschule.de/).
 
 
 <figure markdown>
@@ -19,9 +19,8 @@ Assuming an german english learner has multiple vocabulary sheets, each of the s
 </figure>
 <br>
 
-Once you click the `Merge lists` button from `Flash panel` , the loaded table shows all sheet names from the currect Spreadsheet. 
-
-At least 2 sheets selection is required. Each sheet should have proper `front` and `back` in the first row as headers similar to the norm in [`Flash`][flashcardSection] section.
+Upon selecting the `Merge lists` option from the `Flash` panel, the loaded table will display the names of all sheets contained within the current Spreadsheet.
+Please note that it is necessary to select a minimum of 2 sheets in order to proceed. Furthermore, each sheet must possess appropriate headers for the  `front` and `back` sections, which should be located in the first row of the sheet and follow the same format as outlined in the [Flash][flashcardSection] section.
 
 
 <figure markdown>
@@ -30,16 +29,14 @@ At least 2 sheets selection is required. Each sheet should have proper `front` a
 </figure>
 
 
-
-
 ![mergedSheet]{ width="350", align=left}
 
-Finally, the selected sheets will be merged into one sheet named as `Flashing List-` + numeric `time stamp` (order: day, month, year, hour, min, second) based on your local time.
+After selecting the desired sheets, they will be merged into a single sheet, which will be named as `Flashing List-` followed by a numeric `time stamp`. The time stamp will be based on your local time and will be in the following order: day, month, year, hour, minute, second.
 
 ## Supplementary information
 
-* `Header` - The header should be specified as `front` or `back` in order to be detected by the app. Formatting does not matter.
-* `Position` - The layout of the sheet might be different, it does not matter as long as the first row specified the headers correctly. 
+* `Header` - To ensure detection by the app, please specify the headers as `front` and `back`. The formatting of the header is not relevant.
+* `Position` - The layout of the sheet may vary; however, it is crucial to ensure that the headers are correctly specified in the first row of the sheet.
 
 [mergebutton]: assets/images/merge_button.png
 [sheetSwitch]: assets/images/sheets_switch.gif
