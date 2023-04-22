@@ -68,10 +68,10 @@ Finally, the selected sheets will be merged into one sheet named as Flashing Lis
 * `Header` - The header should be specified as `front` or `back` in order to be detected by the app. Formatting does not matter.
 * `Position` - The layout of the sheet might be different, it does not matter as long as the first row specified the headers correctly. 
 
-[mergebutton]: ./assets/images/merge_button.png
-[sheetSwitch]: ./assets/images/sheets_switch.gif
-[mergeTable]: ./assets/images/merge_table.png
-[mergedSheet]: ./assets/images/merged_sheet.gif
+[mergebutton]: /assets/images/merge_button.png
+[sheetSwitch]: /assets/images/sheets_switch.gif
+[mergeTable]: /assets/images/merge_table.png
+[mergedSheet]: /assets/images/merged_sheet.gif
 [flashcardSection]: #flashcards
 
 
