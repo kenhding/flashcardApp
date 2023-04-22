@@ -2,18 +2,16 @@
 # How to flash
 
 
-## Flashcards
+## Launch flashcard and select flashsheet
 
 
 <div style="display: flex; align-items: center;" markdown>
 ![flashcardsbutton]{ width="150", align=left}
+![flashcardTable]{ width="310", align=left}
 To start flashcard program, click `Flashcards` button from the `Flash` panel in the sidebar. This will navigate to a sheet selector where you can select your sheet to perform flashcard later. 
 </div>
 
-<figure markdown>
-![flashcardTable]{ width="500"}
-<figcaption>Flashcard sheet selector </figcaption>
-</figure>
+
 
 <div style="display: flex; align-items: center;" markdown>
 ![sheetArrangement]{ width="400", align=right}
@@ -21,58 +19,40 @@ Please mind the header of the selected should have headers indicating front and 
 </div>
 
 
+## Flashcard word selection
+
+<div style="display: flex; align-items: center;" markdown>
+![wordSelector1]{ width="450", align=left}
+Next, the dialog shows you how many words found from the given sheet and how many you have already flashed in the past. In this section you are able to select how many words you will like to flash for this time.
+</div>
+
+
+## Flashcard with three-pile method
+
+In the end, the flashcard will be presented in a flip card that can be interactive with mouse. You could press any of the three button below to start. The current version uses `the three-pile method`. 
+
+In breif, this method involves going through the entire pile of flashcards and quizzing oneself. Flashcards that are answered perfectly are placed in the **YES pile** (`Green button`), while those that are answered incorrectly are placed in the **NO pile** (`Red button`). Flashcards that are answered with hesitation are placed in the **MAYBE pile** (`Amber button`). In a later stage, the non-YES flashcards are reviewed again until all the MAYBE/NO flashcards are moved to the YES pile. 
+
+For detailed background information, readers are recommend to the [article here](https://schoolhabits.com/how-to-study-flashcards-3-pile-method/).
+
+<figure markdown>
+![flashing]{ width="550"}
+  <figcaption>Example: Flashcard implementation </figcaption>
+</figure>
+
+## Supplementary information
+
+* `Text to audio` - While memorizing the cards, you may also like to listen the text, audio function is avaible in a wide range of languages, this is still a beta version. We would like to hear your feedback on this. 
+
+* `Flip card setting` - The flip card colour for front and back side can be tuned in the `Setting` from the `Manual` panel of the sidebar. 
+
 
 [flashcardsbutton]: ./assets/images/flashcards_button.png
 [flashcardTable]: ./assets/images/flashcard_table.png
 [sheetArrangement]: ./assets/images/sheet_arrangement.png
-
-
-## Merge list
-
-
-<!-- <div style="display: flex; align-items: center;" markdown> -->
-The flashcard only draw card from **one** properly arranged sheet. if you would like to draw card from multiple sheets, it is required to generate a new sheet contains all the the words. 
-
-
-### Example: merge multiple lists for flashcards
-
-Assuming an german english learner has multiple vocabulary sheets, each of the sheet contains a piece of the vocabulary he noted. The source of the vocabulary used in the tutorial can be found via [here](https://www.frenzelschule.de/download/business-english-vocabulary-vocabulary-list-exam.xls) provided by [Private Business School Frenzel](https://www.frenzelschule.de/).
-
-
-<figure markdown>
-![sheetSwitch]{ width="400"}
-  <figcaption>Example: Words in multiple sheets </figcaption>
-</figure>
-<br>
-![mergebutton]{ width="150", align=left}
-
-Once you click the `Merge lists` button from `Flash panel` , the loaded table shows all sheet names from the currect Spreadsheet. 
-
-At least 2 sheets selection is required. Each sheet should have proper `front` and `back` in the first row as headers similar to the norm in [`Flash`][flashcardSection] section.
-
-
-<figure markdown>
-![mergeTable]{ width="400"}
-  <figcaption>Example: Sheet selection </figcaption>
-</figure>
-
-
-
-
-![mergedSheet]{ width="350", align=left}
-
-Finally, the selected sheets will be merged into one sheet named as Flashing List- `+` numeric time stamp (order: day, month, year, hour, min, second) based on your local time.
-
-### Specification
-
-* `Header` - The header should be specified as `front` or `back` in order to be detected by the app. Formatting does not matter.
-* `Position` - The layout of the sheet might be different, it does not matter as long as the first row specified the headers correctly. 
-
-[mergebutton]: /assets/images/merge_button.png
-[sheetSwitch]: /assets/images/sheets_switch.gif
-[mergeTable]: /assets/images/merge_table.png
-[mergedSheet]: /assets/images/merged_sheet.gif
-[flashcardSection]: #flashcards
+[wordSelector1]: ./assets/images/flashcard_words_selector1.png
+[wordSelector2]: ./assets/images/flashcard_words_selector2.png
+[flashing]: ./assets/images/flashing.gif
 
 
 

@@ -84,6 +84,9 @@ markdown_extensions:
 nav:
   - Manual:
     - index.md
+    - merge_lists.md
+    - print.md
+    - review.md
   - Blog:
     - blog/index.md
     - blog/posts/hello_world.md
