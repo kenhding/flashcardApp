@@ -11,7 +11,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.path
-    - toc.integrate
+    # - toc.integrate
     - search.highlight
   palette:
     # Palette toggle for light mode
@@ -78,6 +78,8 @@ copyright: >
 
 markdown_extensions:
   - attr_list
+  - md_in_html
+
 
 nav:
   - Manual:
