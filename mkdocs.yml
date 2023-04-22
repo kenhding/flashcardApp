@@ -92,3 +92,5 @@ nav:
     - blog/posts/hello_world.md
   - Privacy policy:
     - privacy.md
+  - Terms of Service:
+    - service.md
