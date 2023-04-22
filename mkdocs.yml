@@ -87,9 +87,9 @@ nav:
     - merge_lists.md
     - print.md
     - review.md
-  - Blog:
-    - blog/index.md
-    - blog/posts/hello_world.md
+  # - Blog:
+  #   - blog/index.md
+  #   - blog/posts/hello_world.md
   - Privacy policy:
     - privacy.md
   - Terms of Service:
