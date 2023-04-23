@@ -17,6 +17,10 @@ We use the information we collect to distinguish the membership.
 
 We do not sell or share your personal information to third parties. 
 
+### Limited Used Disclosure
+Flashcard Suite use and transfer to any other app of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes), including the Limited Use requirements.
+
+
 ### Your Choices
 
 You have the right to access and update the personal information we have about you. You can also choose to opt out of receiving marketing communications from us at any time by following the unsubscribe instructions in the communication or by contacting us directly.
