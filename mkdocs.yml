@@ -1,10 +1,11 @@
-site_name: Flashcard documentation
-site_description: required. Used as feed mandatory channel description.
-site_url: http://127.0.0.1:8000/
+site_name: Flashcard Suite documentation
+site_description: Flashcard Suite user manual
+site_url: https://flashcardapp.readthedocs.io/en/latest/
 theme:
   name: material
   custom_dir: overrides
   language: en
+  logo: assets/logo.png
   
   features:
     - navigation.tabs
