@@ -1,4 +1,4 @@
-site_name: Flashcards Suite documentation
+site_name: Flashcards Suite Documentation
 site_description: Flashcards Suite user manual
 site_url: https://flashcardapp.readthedocs.io/en/latest/
 theme:
@@ -92,6 +92,8 @@ nav:
   # - Blog:
   #   - blog/index.md
   #   - blog/posts/hello_world.md
+  - Motivation:
+    - motivation.md
   - Privacy policy:
     - privacy.md
   - Terms of Service:

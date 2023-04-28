@@ -1,7 +1,6 @@
 
-# Privacy Policy
 
-## Privacy Policy for Flashcards Suite
+# Privacy Policy for Flashcards Suite
 
 We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose your personal information when you use Flashcards Suite. By using Flashcards Suite, you agree to the terms of this Privacy Policy.
 
