@@ -1,0 +1,7 @@
+mkdocs-material>=8.4.0
+mkdocstrings-python>=0.8.2
+mkdocs-blog-plugin>=0.25
+mkdocs-meta-descriptions-plugin>=2.2.0
+Babel
+mkdocs-blogging-plugin
+mkdocs-glightbox
