@@ -7,6 +7,7 @@ theme:
   language: en
   logo: assets/logo.png
   
+  
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -18,7 +19,7 @@ theme:
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: slate
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -27,7 +28,7 @@ theme:
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+      scheme: default
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
