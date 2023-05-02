@@ -1,6 +1,6 @@
 site_name: Flashcard Suite Documentation
 site_description: Flashcard Suite user manual
-site_url: https://flashcardapp.readthedocs.io/en/latest/
+site_url: https://flashcardssuite.com/
 theme:
   name: material
   custom_dir: overrides
