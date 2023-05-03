@@ -27,7 +27,7 @@ To receive support from our team, please click on the "Contact" button in the ma
 
 ## Supplementary information
 
-* `Contact response` - We appreciate any suggestions or ideas you have for the flashcards. However, during the testing phase, we may receive a high volume of feedback and may not be able to respond to each email individually. If you encounter any bugs or technical issues, please provide reproducible steps so that we can replicate and resolve the issue as quickly as possible.
+* `Contact response` - In addition to the in-app contact form, you are also welcomed to reach us via our service email: [**keinding.service@gmail.com**](mailto:keinding.service@gmail.com). We appreciate any suggestions or ideas you have for the flashcards. However, during the testing phase, we may receive a high volume of feedback and may not be able to respond to each email individually. If you encounter any bugs or technical issues, please provide reproducible steps so that we can replicate and resolve the issue as quickly as possible.
 
 
 [manualButton]: assets/images/manual_button.png
