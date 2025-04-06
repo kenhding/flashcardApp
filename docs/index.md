@@ -40,6 +40,34 @@ For an in-depth analysis and additional background information on the three-pile
   <figcaption>Example: Flashcard implementation </figcaption>
 </figure>
 
+
+## Example Generation (beta)
+
+The current version of the flashcard feature includes **beta support** for example generation using **Google Gemini**, specifically for language learning use cases.
+
+When you hover your cursor **vertically** over a flashcard, a prompt will appear:  
+**"Click to generate examples"**
+
+<figure markdown>
+![exampleGeneration]{ width="550"}
+  <figcaption>Example: Flashcard example generation </figcaption>
+</figure>
+
+### ⚠️ Note:
+This feature is powered by the **Gemini API** free tier, and you will need to use **your own API key**.
+
+#### Gemini API (free tier) Limitations:
+- **Max 15 requests per minute**
+- **Up to 1,000,000 tokens per minute**
+- **Max 1,500 requests per day**
+
+<div style="display: flex; align-items: center;" markdown>
+![settingbutton]{ width="150", align=left}
+![flashcardTable]{ width="310", align=left}
+To enable this feature, first obtain a free Gemini API key from the [official Gemini API page](https://ai.google.dev/gemini-api/docs/api-key). Once you have the key, open the app's **settings panel** and enter it there to activate example generation.
+</div>
+
+
 ## Supplementary information
 
 * `Text to audio` - In addition to memorizing the Flashcards via reading, users may also choose to utilize the audio function to listen to the text. It should be noted that the audio function is currently available in a diverse array of languages, although this feature remains in its beta version. We welcome all feedback in relation to this aspect of the program.
@@ -53,6 +81,11 @@ For an in-depth analysis and additional background information on the three-pile
 [wordSelector1]: ./assets/images/flashcard_words_selector1.png
 [wordSelector2]: ./assets/images/flashcard_words_selector2.png
 [flashing]: ./assets/images/flashing.gif
+[exampleGeneration]: ./assets/images/exampleGeneration.gif
+[settingbutton]: ./assets/images/setting_button.png
+[geminiApi]: ./assets/images/gemini_api_blank.png
+
+
 
 
 
