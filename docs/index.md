@@ -53,7 +53,7 @@ When you hover your cursor **vertically** over a flashcard, a prompt will appear
   <figcaption>Example: Flashcard example generation </figcaption>
 </figure>
 
-### ⚠️ Note:
+### Note:
 This feature is powered by the **Gemini API** free tier, and you will need to use **your own API key**.
 
 #### Gemini API (free tier) Limitations:
@@ -63,7 +63,7 @@ This feature is powered by the **Gemini API** free tier, and you will need to us
 
 <div style="display: flex; align-items: center;" markdown>
 ![settingbutton]{ width="150", align=left}
-![flashcardTable]{ width="310", align=left}
+![geminiApi]{ width="310", align=left}
 To enable this feature, first obtain a free Gemini API key from the [official Gemini API page](https://ai.google.dev/gemini-api/docs/api-key). Once you have the key, open the app's **settings panel** and enter it there to activate example generation.
 </div>
 
