@@ -75,6 +75,7 @@ To enable this feature, first obtain a free Gemini API key from the [official Ge
 * `Flip card setting` - The color of the flip card's front and back sides can be customized by accessing the `Settings` feature located within the `Manual` panel situated in the sidebar.
 
 
+
 [flashcardsbutton]: ./assets/images/flashcards_button.png
 [flashcardTable]: ./assets/images/flashcard_table.png
 [sheetArrangement]: ./assets/images/sheet_arrangement.png
