@@ -65,12 +65,12 @@ The Quiz feature turns your flash cards into multiple selection quiz where there
 </div>
 
 <div style="display: flex; align-items: center;" markdown>
-![sheetArrangement]{ width="400", align=right}
+![quizSheetExample]{ width="400", align=right}
 The alternative options can be defined manually in the sheets or can be generated automatically. Please ensure that the selected sheet includes headers that indicate the front and back sides of the cards and options1, options2, options3.
 </div>
 
 <figure markdown>
-![quiz_generation]{ width="550"}
+![quizGeneration]{ width="550"}
   <figcaption>Example: Multiple choice quiz generation </figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ The alternative options can be defined manually in the sheets or can be generate
 [settingbutton]: ./assets/images/setting_button.png
 [quizButton]: ./assets/images/quiz_button.png
 [quizTable]: ./assets/images/quiz_sheet_selection.png
-[quizExample]: ./assets/images/quiz_example.png
+[quizSheetExample]: ./assets/images/quiz_example.png
 [quizGeneration]: ./assets/images/quiz_generation.png
 [quizGif]: ./assets/images/quiz_gif.gif
 
