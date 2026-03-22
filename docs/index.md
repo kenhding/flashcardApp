@@ -43,7 +43,7 @@ For an in-depth analysis and additional background information on the three-pile
 
 ## Example Generation (beta)
 
-The current version of the flashcard feature includes **beta support** for example generation using **Google Gemini**, specifically for language learning use cases.
+The current version of the flashcard feature includes **beta support** ,specifically for language learning use cases.
 
 When you hover your cursor **vertically** over a flashcard, a prompt will appear:  
 **"Click to generate examples"**
@@ -54,18 +54,31 @@ When you hover your cursor **vertically** over a flashcard, a prompt will appear
 </figure>
 
 ### Note:
-This feature is powered by the **Gemini API** free tier, and you will need to use **your own API key**.
+This feature is powered by a Large Language Model (LLM). Daily usage limits apply and vary depending on whether you are using a free or paid plan.
 
-#### Gemini API (free tier) Limitations:
-- **Max 15 requests per minute**
-- **Up to 1,000,000 tokens per minute**
-- **Max 1,500 requests per day**
+## Quiz (beta)
 
 <div style="display: flex; align-items: center;" markdown>
-![settingbutton]{ width="150", align=left}
-![geminiApi]{ width="310", align=left}
-To enable this feature, first obtain a free Gemini API key from the [official Gemini API page](https://ai.google.dev/gemini-api/docs/api-key). Once you have the key, open the app's **settings panel** and enter it there to activate example generation.
+![quizButton]{ width="150", align=left}
+![quizTable]{ width="310", align=left}
+The Quiz feature turns your flash cards into multiple selection quiz where there are alternative wrong options to ambguitously test if you really have gain the knowledge. 
 </div>
+
+<div style="display: flex; align-items: center;" markdown>
+![sheetArrangement]{ width="400", align=right}
+The alternative options can be defined manually in the sheets or can be generated automatically. Please ensure that the selected sheet includes headers that indicate the front and back sides of the cards and options1, options2, options3.
+</div>
+
+<figure markdown>
+![quiz_generation]{ width="550"}
+  <figcaption>Example: Multiple choice quiz generation </figcaption>
+</figure>
+
+<figure markdown>
+![quizGif]{ width="550"}
+  <figcaption>Example: Multiple choice quiz </figcaption>
+</figure>
+
 
 
 ## Supplementary information
@@ -73,7 +86,6 @@ To enable this feature, first obtain a free Gemini API key from the [official Ge
 * `Text to audio` - In addition to memorizing the Flashcards via reading, users may also choose to utilize the audio function to listen to the text. It should be noted that the audio function is currently available in a diverse array of languages, although this feature remains in its beta version. We welcome all feedback in relation to this aspect of the program.
 
 * `Flip card setting` - The color of the flip card's front and back sides can be customized by accessing the `Settings` feature located within the `Manual` panel situated in the sidebar.
-
 
 
 [flashcardsbutton]: ./assets/images/flashcards_button.png
@@ -84,9 +96,11 @@ To enable this feature, first obtain a free Gemini API key from the [official Ge
 [flashing]: ./assets/images/flashing.gif
 [exampleGeneration]: ./assets/images/exampleGeneration.gif
 [settingbutton]: ./assets/images/setting_button.png
-[geminiApi]: ./assets/images/gemini_api_blank.png
-
-
+[quizButton]: ./assets/images/quiz_button.png
+[quizTable]: ./assets/images/quiz_sheet_selection.png
+[quizExample]: ./assets/images/quiz_example.png
+[quizGeneration]: ./assets/images/quiz_generation.png
+[quizGif]: ./assets/images/quiz_gif.gif
 
 
 
